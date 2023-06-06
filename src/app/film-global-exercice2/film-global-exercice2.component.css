@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    width: 300px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-left: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .movie-details {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .favorites {
+    margin-top: 20px;
+  }
+  
+  .favorites h2 {
+    margin-bottom: 10px;
+  }
+  
+  .favorites ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .favorites li {
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+  .movie-card {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
